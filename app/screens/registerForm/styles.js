@@ -1,26 +1,50 @@
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
+  scrollView:{
+    flex:1,
+    justifyContent:'center'
+  },
   container: {
     flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#36485f',
+    paddingLeft: 40,
+    paddingRight: 40
   },
   headingLayout: {
-    flex: 0.2,
-    backgroundColor: 'yellow',
+    flex: 0.2
   },
   headingContainer: {
     flex: 1,
     justifyContent: 'center',
   },
   headingText: {
-    textAlign: 'center',
-    fontSize: 32,
+    fontSize: 24,
     fontFamily: 'Helvetica-Light',
+    color: 'white',
+    borderBottomColor: '#199187',
+    borderBottomWidth: 1,
   },
-  input: {
+  inputContainer:{
+    marginBottom: 10
+  },
+  inputText: {
     height: 40,
-    margin: 12,
-    borderWidth: 1,
-    padding: 10,
+    color : 'white',
+    borderBottomColor: '#f8f8f8',
+    borderBottomWidth: 1
   },
+  button:{
+    alignItems: 'center',
+    backgroundColor: '#59cbbd',
+    alignSelf: 'stretch',
+    height: 40,
+    marginTop: 20,
+    justifyContent: "center"
+  },
+  buttonText:{
+    color: 'white',
+    fontWeight: 'bold'
+  }
 });
