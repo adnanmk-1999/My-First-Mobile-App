@@ -7,6 +7,7 @@ const dotenv = require('dotenv');
 dotenv.config({ path: './env' });
 require('dotenv').config();
 
+//server.js
 
 var corsOptions = {
   origin: "*",
