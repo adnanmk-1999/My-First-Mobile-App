@@ -1,9 +1,11 @@
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
-  scrollView:{
+  safeArea:{
+    flex: 1,
+  },
+  scroll:{
     flex:1,
-    justifyContent:'center'
   },
   container: {
     flex: 1,
@@ -25,6 +27,9 @@ export default StyleSheet.create({
     color: 'white',
     borderBottomColor: '#199187',
     borderBottomWidth: 1,
+    marginTop: 15,
+    textAlign:'center',
+    paddingBottom:10
   },
   inputContainer:{
     marginBottom: 10
@@ -41,7 +46,8 @@ export default StyleSheet.create({
     alignSelf: 'stretch',
     height: 40,
     marginTop: 20,
-    justifyContent: "center"
+    justifyContent: "center",
+    marginBottom:20
   },
   buttonText:{
     color: 'white',
