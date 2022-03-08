@@ -32,6 +32,12 @@ function Home({navigation}) {
         <Text style={styles.buttonText}>Register Yourself</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity
+        style={styles.buttonContainer}
+        onPress={() => navigation.navigate('Planets')}>
+        <Text style={styles.buttonText}>List of Planets</Text>
+      </TouchableOpacity>
+
       <View style={styles.loginButton}></View>
       <View style={styles.registerButton}></View>
     </ImageBackground>

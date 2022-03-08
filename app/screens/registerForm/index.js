@@ -12,7 +12,6 @@ import {
 
 import styles from './styles';
 
-import validation from '../../helpers/validator/validation';
 import validate from '../../helpers/validator/validationWrapper';
 
 function RegisterForm() {
