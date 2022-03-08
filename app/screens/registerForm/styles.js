@@ -32,13 +32,13 @@ export default StyleSheet.create({
     paddingBottom:10
   },
   inputContainer:{
-    marginBottom: 10
+    // marginBottom: 10
   },
   inputText: {
     height: 40,
     color : 'white',
     borderBottomColor: '#f8f8f8',
-    borderBottomWidth: 1
+    borderBottomWidth: 1,
   },
   button:{
     alignItems: 'center',
